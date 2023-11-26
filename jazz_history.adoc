@@ -1,1 +1,2 @@
+image::images/miles.jpeg[]
 = A slice of Jazz history 
