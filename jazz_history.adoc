@@ -1,3 +1,4 @@
+:stylesheet: config/theme.css
 image::images/miles.jpeg[]
 == A slice of Jazz history 
-=== Graphing the musical history behind Miles Davis' _Birth of the Cool_
+=== Graphing the musical history behind Miles Davis' 1957 album, _Birth of the Cool_
