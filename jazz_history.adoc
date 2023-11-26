@@ -1,4 +1,12 @@
-:stylesheet: config/theme.css
+:stylesheet: theme.css
+:stylesdir: config
 image::images/miles.jpeg[]
 == A slice of Jazz history 
+
 === Graphing the musical history behind Miles Davis' 1957 album, _Birth of the Cool_
+
+In 1957 Capitol Records released _Birth of the Cool_ and after that, things just weren't the same.
+
+But how did this masterpiece come about? Did it just come 'out of the blue'? Of course not, there was a whole history of artists interacting, building styles, developing relationships and ways of playing which gradually built towards this recording. 
+
+Miles Davis and the group of artists who made up his band, 'nonet', recorded the album during a series of sessions between 1949 and 1950. The players shifted between recordings with only Miles Davis, 
