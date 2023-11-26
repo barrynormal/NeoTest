@@ -1,2 +1,3 @@
 image::images/miles.jpeg[]
 = A slice of Jazz history 
+== Graphing the musical history behind Birth of the Cool
