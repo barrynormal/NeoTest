@@ -1,5 +1,3 @@
-:stylesheet: theme.css
-:stylesdir: config
 image::images/miles.jpeg[]
 == A slice of Jazz history 
 
@@ -34,8 +32,6 @@ a|
 * musical styles
 * record labels
 * groups
-
-
 a|
 * composed (there are often more then one to a piece)
 * arranged (not always mentioned)
