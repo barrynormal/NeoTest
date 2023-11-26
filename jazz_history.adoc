@@ -1,14 +1,16 @@
 image::images/miles.jpeg[]
 == A slice of Jazz history 
 
-=== Graphing the musical history behind Miles Davis' 1957 album, _Birth of the Cool_
+=== Graphing the story behind Miles Davis' 1957 album, _Birth of the Cool_
 
 In 1957 Capitol Records released _Birth of the Cool_ and after that, things just weren't the same.
 
-But how did this masterpiece come about? Did it just come 'out of the blue'? Of course not, there was a whole history of artists interacting, building styles, developing relationships and ways of playing which gradually built towards this recording. 
+But how did this modern jazz classic come about? Did it just appear 'out of the blue'? Of course not, there was a whole history of artists interacting, building styles, developing relationships and ways of playing which gradually built towards this recording. 
 
 ==== An interesting finding
-While pulling together this dataset, one thing which struck me was how young some of these musicians died. Having said that, the lifespan of drummers seems to be enormous. So, I've attempted a link:#interesting[Cypher query which gives you artists and their lifespan, classified by instrument].
+While pulling together this dataset, one thing which struck me was how young some of these musicians died. Having said that, the lifespan of drummers seems to be enormous. So, I've attempted a link:#interesting[Cypher query which gives you artists and their lifespan, classified by instrument]. 
+
+Main takeaway - if you're considering a career in jazz, pick up the drum sticks, not the sax. And whatever you do, stay away from the bass...
 
 NOTE: You can replicate the database using the query saved in https://github.com/barrynormal/NeoTest/blob/main/data/input.py[the input.py file].
 
