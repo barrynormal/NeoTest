@@ -13,5 +13,17 @@ But how did this masterpiece come about? Did it just come 'out of the blue'? Of 
 Miles Davis and the shifting group of artists who made up his band, 'nonet', recorded the album during a series of sessions between 1949 and 1950. The tracks were composed and arranged by a number of greats, including https://en.wikipedia.org/wiki/Gerry_Mulligan[Gerry Mulligan] and https://en.wikipedia.org/wiki/Gil_Evans[Gill Evans].
 
 Each of these artists had a plethora of creative influences, and togehter they had a decisive influence on Jazz, in particular Bebop and Cool Jazz. With all this in mind, let's take a look at the first data modeling sketch. 
-image::images/sketch.png[]
 
+==== Data modelling Jazz 
+This model captures the nouns of the story as nodes for the graph. See [the original sketch for this graph].
+
+===== Nodes include:
+* artists/musiscians
+* pieces of music
+* recordings
+* instruments
+* musical styles
+* record labels
+* groups
+
+image::images/jazzDataModel.jpg[]
