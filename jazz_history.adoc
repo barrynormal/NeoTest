@@ -12,16 +12,21 @@ But how did this masterpiece come about? Did it just come 'out of the blue'? Of 
 ==== Graphing history
 Miles Davis and the shifting group of artists who made up his band, 'nonet', recorded the album during a series of sessions between 1949 and 1950. The tracks were composed and arranged by a number of greats, including https://en.wikipedia.org/wiki/Gerry_Mulligan[Gerry Mulligan] and https://en.wikipedia.org/wiki/Gil_Evans[Gill Evans].
 
-Each of these artists had a plethora of creative influences, and togehter they had a decisive influence on Jazz, in particular Bebop and Cool Jazz. With all this in mind, let's take a look at the first data modeling sketch. 
+Each of these artists had a plethora of creative influences, and togehter they had a decisive influence on Jazz, in particular Bebop and Cool Jazz. With all this in mind, let's take a look at the data modeling. 
 
 ==== Data modelling Jazz 
-This model captures the nouns of the story as nodes for the graph. See [the original sketch for this graph].
+This model captures the nouns of the story as nodes for the graph. The actions are represented as relations. Some additional facts and figures, such as dates and names are recorded as properties of the nodes and occasionally, the relations.
 
-===== Nodes include: 
-image:images/jazzDataModel.jpg[300, 400, role='right', align="left"]
+See https://github.com/barrynormal/NeoTest/blob/main/images/sketch.png[the original sketch for this graph].
 
+[width=75%]
+[cols="1,2"]
+|===
+|Nodes include |Relations include
+
+a|
 * artists/musiscians
-* pieces of music
+* pieces (of music)
 * recordings  
 * instruments
 * musical styles
@@ -29,6 +34,45 @@ image:images/jazzDataModel.jpg[300, 400, role='right', align="left"]
 * groups
 
 
+a|
 
+* composed (there are often more then one to a piece)
+* arranged (not always mentioned)
+* played (linking musicians with their instruments)
+* played with (live performances)
+* played on (for artists appearing on recordings)
+* influenced (creative input from one to another)
+* created (bands, groups, record)
+* associated with (musical style)
+* has track (to associate pieces with recordings)
+
+|===
+
+
+
+===== Nodes include: 
+* artists/musiscians
+* pieces (of music)
+* recordings  
+* instruments
+* musical styles
+* record labels
+* groups
+
+
+===== Relations include: 
+* composed (there are often more then one to a piece)
+* arranged (not always mentioned)
+* played (linking musicians with their instruments)
+* played with (live performances)
+* played on (for artists appearing on recordings)
+* influenced (creative input from one to another)
+* created (bands, groups, record)
+* associated with (musical style)
+* has track (to associate pieces with recordings)
+
+
+
+image:images/jazzDataModel.jpg[]
 
 
