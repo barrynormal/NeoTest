@@ -17,7 +17,9 @@ Each of these artists had a plethora of creative influences, and togehter they h
 ==== Data modelling Jazz 
 This model captures the nouns of the story as nodes for the graph. See [the original sketch for this graph].
 
-===== Nodes include: image:images/jazzDataModel.jpg[300, 400, role='left', align="center"]
+===== Nodes include: 
+image:images/jazzDataModel.jpg[300, 400, role='right', align="left"]
+
 * artists/musiscians
 * pieces of music
 * recordings  
@@ -26,8 +28,6 @@ This model captures the nouns of the story as nodes for the graph. See [the orig
 * record labels
 * groups
 
-
-[link=images/jazzDataModel.jpg]
 
 
 
