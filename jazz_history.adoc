@@ -1,4 +1,4 @@
-nimage::images/miles.jpeg[]
+image::images/miles.jpeg[]
 == A slice of Jazz history 
 
 === Graphing the musical history behind Miles Davis' 1957 album, _Birth of the Cool_
