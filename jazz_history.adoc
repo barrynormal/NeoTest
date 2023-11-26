@@ -62,7 +62,11 @@ Although this is only a slice of the data available on the creation of 'Birth of
 image::images/jazz_story.png[]
 
 ==== Some interesting Cypher queries [[interesting]]
-* Who actually played on 'Birth of the Cool' ?
+* Who actually played on 'Birth of the Cool' ? 
+[source,ruby]
+----
+[MATCH p=()-[:PLAYED_ON]->(birthOfCool) RETURN p LIMIT 25;]
+----
 * Who played what instrument? 
 * Who influenced who in the world of cool jazz?
 * A breakdown of artists by instrument, showing lifespan
