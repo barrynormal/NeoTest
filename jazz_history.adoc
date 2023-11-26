@@ -7,13 +7,20 @@ In 1957 Capitol Records released _Birth of the Cool_ and after that, things just
 
 But how did this masterpiece come about? Did it just come 'out of the blue'? Of course not, there was a whole history of artists interacting, building styles, developing relationships and ways of playing which gradually built towards this recording. 
 
+==== An interesting finding
+While pulling together this dataset, one thing which struck me was how young some of these musicians died. Having said that, the lifespan of drummers seems to be enormous. So, I've attempted a link:#interesting[Cypher query which gives you artists and their lifespan, classified by instrument].
+
+NOTE: You can replicate the database using the query saved in https://github.com/barrynormal/NeoTest/blob/main/data/input.py[the input.py file].
+
 ==== Graphing history
 Miles Davis and the shifting group of artists who made up his band, 'nonet', recorded the album during a series of sessions between 1949 and 1950. The tracks were composed and arranged by a number of greats, including https://en.wikipedia.org/wiki/Gerry_Mulligan[Gerry Mulligan] and https://en.wikipedia.org/wiki/Gil_Evans[Gill Evans].
 
 Each of these artists had a plethora of creative influences, and togehter they had a decisive influence on Jazz, in particular Bebop and Cool Jazz. With all this in mind, let's take a look at the data modeling. 
 
 ==== Data modelling Jazz 
-This model captures the nouns of the story as nodes for the graph. The actions are represented as relations. Some additional facts and figures, such as dates and names are recorded as properties of the nodes and occasionally, the relations.
+This model captures the *nouns* of the story as *nodes* for the graph. 
+*Actions* are represented as *relations*. 
+Some additional facts and figures, such as dates and names are recorded as properties of the nodes and occasionally, the relations.
 
 See https://github.com/barrynormal/NeoTest/blob/main/images/sketch.png[the original sketch for this graph].
 
@@ -22,7 +29,7 @@ See https://github.com/barrynormal/NeoTest/blob/main/images/sketch.png[the origi
 [width=100%]
 [cols="1,2,2"]
 |===
-|Nodes include |Relations include |graph (click to enlarge)
+|Nodes include |Relations include |data model (click to enlarge)
 
 a| 
 * artists (musicians)
@@ -46,6 +53,19 @@ a|
 a|image:images/jazzDataModel.jpg[400,500, role='right', link=https://github.com/barrynormal/NeoTest/blob/one/images/jazzDataModel.jpg]
 
 |===
+
+==== The full graph
+Although this is only a slice of the data available on the creation of 'Birth of the cool', it quickly becomes apparrent just how much of a beautiful, organic collaboration Jazz really was, in the 1940s and '50s.
+
+image::images/jazz_story.png[]
+
+==== Some interesting Cypher queries [[interesting]]
+* Who actually played on 'Birth of the Cool' ?
+* Who played what instrument? 
+* Who influenced who in the world of cool jazz?
+* A breakdown of artists by instrument, showing lifespan
+
+
 
 
 
