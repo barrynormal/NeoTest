@@ -19,10 +19,12 @@ This model captures the nouns of the story as nodes for the graph. The actions a
 
 See https://github.com/barrynormal/NeoTest/blob/main/images/sketch.png[the original sketch for this graph].
 
-[width=75%]
-[cols="1,2"]
+
+
+[width=100%]
+[cols="1,2,2"]
 |===
-|Nodes include |Relations include
+|Nodes include |Relations include |graph (click to enlarge)
 
 a|
 * artists/musiscians
@@ -35,7 +37,6 @@ a|
 
 
 a|
-
 * composed (there are often more then one to a piece)
 * arranged (not always mentioned)
 * played (linking musicians with their instruments)
@@ -45,34 +46,11 @@ a|
 * created (bands, groups, record)
 * associated with (musical style)
 * has track (to associate pieces with recordings)
+
+a|image:images/jazzDataModel.jpg[400,500, role='right', link=https://github.com/barrynormal/NeoTest/blob/one/images/jazzDataModel.jpg]
 
 |===
 
 
-
-===== Nodes include: 
-* artists/musiscians
-* pieces (of music)
-* recordings  
-* instruments
-* musical styles
-* record labels
-* groups
-
-
-===== Relations include: 
-* composed (there are often more then one to a piece)
-* arranged (not always mentioned)
-* played (linking musicians with their instruments)
-* played with (live performances)
-* played on (for artists appearing on recordings)
-* influenced (creative input from one to another)
-* created (bands, groups, record)
-* associated with (musical style)
-* has track (to associate pieces with recordings)
-
-
-
-image:images/jazzDataModel.jpg[]
 
 
