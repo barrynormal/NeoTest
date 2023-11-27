@@ -8,13 +8,15 @@ In 1957 Capitol Records released _Birth of the Cool_ and after that, things just
 But how did this modern jazz classic come about? Did it just appear 'out of the blue'? Of course not, there was a whole history of artists interacting, building styles, developing relationships and ways of playing which gradually built towards this recording. 
 
 ==== An interesting finding
-While pulling together this dataset, one thing which struck me was how young some of these musicians died. Having said that, the lifespan of drummers seems to be enormous. For the detail, please see link:#interesting[this Cypher query, which gives you artists, their lifespan, and their instrument of choice]. But, the main takeaway - if you're considering a career in jazz, pick up the drum sticks, not the sax. And whatever you do, stay away from the double bass...
+While pulling together this dataset, one thing which struck me was how young some of these musicians died. Having said that, the lifespan of drummers seems to be enormous. 
+
+For the detail, please see link:#interesting[this Cypher query, which gives you artists, their lifespan, and their instrument of choice]. But, the main takeaway - if you're considering a career in jazz, pick up the drum sticks, not the sax. And whatever you do, stay away from the double bass...
 
 [[setup]]
 NOTE: You can replicate the database using https://neo4j.com/cloud/aura-free/[a free Neo4j Aura instance] and the query saved in https://github.com/barrynormal/NeoTest/blob/main/data/input.py[the input.py file].
 
 ==== Graphing history
-Miles Davis and the shifting group of artists who made up his band, 'nonet', recorded the album during a series of sessions between 1949 and 1950. The tracks were composed and arranged by a number of greats, including https://en.wikipedia.org/wiki/Gerry_Mulligan[Gerry Mulligan] and https://en.wikipedia.org/wiki/Gil_Evans[Gill Evans].
+Miles Davis and the shifting group of artists who made up his band, 'nonet', recorded 'Birth of the Cool' during a series of sessions between 1949 and 1950. The tracks were composed and arranged by a number of greats, including https://en.wikipedia.org/wiki/Gerry_Mulligan[Gerry Mulligan] and https://en.wikipedia.org/wiki/Gil_Evans[Gill Evans].
 
 Each of these artists had a plethora of creative influences, and togehter they had a decisive influence on Jazz, in particular Bebop and Cool Jazz. With all this in mind, let's take a look at the data modeling. 
 
@@ -61,7 +63,9 @@ Although this is only a slice of the data available on the creation of 'Birth of
 image::images/jazz_story.png[]
 
 ==== Some interesting Cypher queries [[interesting]]
-If you link:#setup[recreated the database] You can run these queries against your instance by simply cutting and pasting them into the  
+If you link:#setup[recreated the database], you can run these queries against your instance by simply cutting and pasting them into the prompt, as shown below.
+image::images/cypher_in.png[]
+
 ===== *Who actually played on 'Birth of the Cool' ?* 
 [source,cypher]
 ----
