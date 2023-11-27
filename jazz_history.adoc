@@ -78,9 +78,16 @@ MATCH p=(Musician)-[:PLAYED]->(Instrument) RETURN p LIMIT 25;
 ===== *A breakdown of artists by instrument, showing lifespan* [[interesting]]
 [source,cypher]
 ----
-Match (m:Musician) where m.died IS NOT NULL SET m.lifespan = m.died - m.born
-Match (i:Instrument)-[:PLAYED]-(m:Musician) WHERE m.lifespan IS NOT NULL RETURN i.name,m.name, m.lifespan
+MATCH (m:Musician) WHERE m.died IS NOT NULL SET m.lifespan = m.died - m.born
 ----
+Then:
+[source,cypher]
+----
+MATCH (i:Instrument)-[:PLAYED]-(m:Musician) 
+WHERE m.lifespan IS NOT NULL 
+RETURN i.name,m.name, m.lifespan
+----
+
 image::images/lifespan.png[700,500]
 
 
