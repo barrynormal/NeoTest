@@ -7,7 +7,7 @@ In 1957 Capitol Records released _Birth of the Cool_ and after that, things just
 
 But how did this modern jazz classic come about? Did it just appear 'out of the blue'? Of course not, there was a whole history of artists interacting, building styles, developing relationships and ways of playing which gradually built towards this recording. 
 
-==== An interesting finding
+==== A sad note
 While pulling together this dataset, one thing which struck me was how young some of these musicians died. Having said that, the lifespan of drummers seems to be enormous. 
 
 For the detail, please see link:#interesting[this Cypher query, which gives you artists, their lifespan, and their instrument of choice]. But, the main takeaway - if you're considering a career in jazz, pick up the drum sticks, not the bass. And whatever you do, stay away from the saxophone...
