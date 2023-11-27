@@ -38,7 +38,7 @@
  (nelsonB:Musician {name: 'Nelson Boyd', born: 1928, died: 1985}),
  (kennyC:Musician {name: 'Kenny Clarke', born: 1914, died: 1985}),
  (sandyS:Musician {name: 'Sandy Siegelstein', born: 1919, died: 2013}),
- (jCarisi:Musician {name: 'John E. Carisi', born: 1922, died: 2092}),
+ (jCarisi:Musician {name: 'John E. Carisi', born: 1922, died: 2002}),
  (gWallington:Musician {name: 'Giacinto Figlia',stage_name: 'George Wallington', born: 1924, died: 1993}),
  (gShearing:Musician {name: 'George Shearing', born: 1919, died: 2011}),
  (bPowell:Musician {name: 'Earl Rudolph Powell',stage_name: 'Bud Powell', born: 1924, died: 1966}),
