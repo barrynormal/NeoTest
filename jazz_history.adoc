@@ -62,7 +62,7 @@ Although this is only a slice of the data available on the creation of 'Birth of
 
 image::images/jazz_story.png[]
 
-==== Some interesting Cypher queries [[interesting]]
+==== Some interesting Cypher queries 
 If you link:#setup[recreated the database] earlier, you can run these queries against your instance by simply cutting and pasting them into the `+Neo4j$+` prompt at the top of the page.
 
 ===== *Who actually played on 'Birth of the Cool' ?* 
@@ -75,7 +75,7 @@ If you link:#setup[recreated the database] earlier, you can run these queries ag
 ----
 MATCH p=(Musician)-[:PLAYED]->(Instrument) RETURN p LIMIT 25;
 ----
-===== *A breakdown of artists by instrument, showing lifespan*
+===== *A breakdown of artists by instrument, showing lifespan* [[interesting]]
 [source,cypher]
 ----
 Match (m:Musician) where m.died IS NOT NULL SET m.lifespan = m.died - m.born
