@@ -10,7 +10,7 @@ But how did this modern jazz classic come about? Did it just appear 'out of the 
 ==== An interesting finding
 While pulling together this dataset, one thing which struck me was how young some of these musicians died. Having said that, the lifespan of drummers seems to be enormous. 
 
-For the detail, please see link:#interesting[this Cypher query, which gives you artists, their lifespan, and their instrument of choice]. But, the main takeaway - if you're considering a career in jazz, pick up the drum sticks, not the sax. And whatever you do, stay away from the double bass...
+For the detail, please see link:#interesting[this Cypher query, which gives you artists, their lifespan, and their instrument of choice]. But, the main takeaway - if you're considering a career in jazz, pick up the drum sticks, not the bass. And whatever you do, stay away from the saxophone...
 
 [[setup]]
 NOTE: You can replicate the database using https://neo4j.com/cloud/aura-free/[a free Neo4j Aura instance] and the query saved in https://github.com/barrynormal/NeoTest/blob/main/data/input.py[the input.py file].
@@ -63,7 +63,7 @@ Although this is only a slice of the data available on the creation of 'Birth of
 image::images/jazz_story.png[]
 
 ==== Some interesting Cypher queries [[interesting]]
-If you link:#setup[recreated the database], you can run these queries against your instance by simply cutting and pasting them into the prompt (`+Neo4j$+`).
+If you link:#setup[recreated the database] earlier, you can run these queries against your instance by simply cutting and pasting them into the `+Neo4j$+` prompt at the top of the page.
 
 ===== *Who actually played on 'Birth of the Cool' ?* 
 [source,cypher]
@@ -78,10 +78,10 @@ MATCH p=(Musician)-[:PLAYED]->(Instrument) RETURN p LIMIT 25;
 ===== *A breakdown of artists by instrument, showing lifespan*
 [source,cypher]
 ----
-Match (m:Musician) where m.died IS NOT NULL SET m.lifespan = sum(m.died - m.born)
-Match (i:Instrument)-[:PLAYED]-(m:Musician) RETURN i.name,m.name, m.lifespan
+Match (m:Musician) where m.died IS NOT NULL SET m.lifespan = m.died - m.born
+Match (i:Instrument)-[:PLAYED]-(m:Musician) WHERE m.lifespan IS NOT NULL RETURN i.name,m.name, m.lifespan
 ----
-
+image::images/lifespan.png[700,500]
 
 
 
