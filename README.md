@@ -1,5 +1,0 @@
-# Neo4j graph data use case
-
-### A Slice of Jazz History
-
-Please see: [A Slice of Jazz History](https://github.com/barrynormal/NeoTest/blob/main/jazz_history.adoc)
