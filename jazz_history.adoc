@@ -53,7 +53,7 @@ a|
 * associated with (musical style)
 * has track (to associate pieces with recordings)
 
-a|image:images/jazzDataModel.jpg[400,500, role='right', link=https://github.com/barrynormal/NeoTest/blob/one/images/jazzDataModel.jpg]
+a|image:images/jazzDataModel.jpg[400,500, link=https://github.com/barrynormal/NeoTest/blob/one/images/jazzDataModel.jpg]
 
 |===
 
