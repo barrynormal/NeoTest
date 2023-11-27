@@ -30,13 +30,13 @@ See https://github.com/barrynormal/NeoTest/blob/main/images/sketch.png[the origi
 
 
 [width=100%]
-[cols="1,2,2"]
+[cols="1,2,3"]
 |===
 |Nodes include |Relations include |data model (click to enlarge)
 
 a| 
-* artists (musicians)
-* pieces (of music)
+* artists 
+* pieces 
 * recordings  
 * instruments
 * musical styles
