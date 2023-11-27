@@ -30,7 +30,7 @@ See https://github.com/barrynormal/NeoTest/blob/main/images/sketch.png[the origi
 
 
 [width=100%]
-[cols="1,2,3"]
+
 |===
 |Nodes include |Relations include |data model (click to enlarge)
 
