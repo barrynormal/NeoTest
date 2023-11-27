@@ -63,8 +63,7 @@ Although this is only a slice of the data available on the creation of 'Birth of
 image::images/jazz_story.png[]
 
 ==== Some interesting Cypher queries [[interesting]]
-If you link:#setup[recreated the database], you can run these queries against your instance by simply cutting and pasting them into the prompt, as shown below.
-image::images/cypher_in.png[]
+If you link:#setup[recreated the database], you can run these queries against your instance by simply cutting and pasting them into the prompt (`+Neo4j$+`).
 
 ===== *Who actually played on 'Birth of the Cool' ?* 
 [source,cypher]
